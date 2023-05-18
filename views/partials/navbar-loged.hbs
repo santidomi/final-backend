@@ -1,0 +1,26 @@
+<nav>
+  <div class="navbar-column">
+    <a href="/api/user/sessionInfo"><img src="https://img.icons8.com/ios/256/information.png" class="cart" alt="info-ico"></a>
+  </div>
+  <div class="navbar-column">
+    <a href="/api/product/list" title="Catalogo">Catálogo</a>
+    <a href="/api/product/post" title="Agregar productos">Añadir</a>
+  </div>
+  <div class="navbar-column">
+    <a href="/api/user/profile" title="Perfil de usuario"><img src="https://img.icons8.com/ios/256/user.png"class="cart" alt="user-profile"></a>
+    <button class="" type="button" title="Chat de ayuda" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+      aria-controls="offcanvasBottom">
+      <img src="https://img.icons8.com/ios-filled/256/speech-bubble.png" class="cart" alt="chat-icon" />
+    </button>
+    <div class="carrito" title="Carrito">
+      <button class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight">
+        <img src="https://img.icons8.com/ios-filled/256/buy.png" class="cart" alt="" />
+        <span id="productosCounter">0</span>
+      </button>
+    </div>
+    <a href="/api/auth/logout " class="log-button" title="Logout">Cerrar sesión</a>
+  </div>
+  {{> carrito}}
+  {{> chat}}
+</nav>

@@ -1,0 +1,57 @@
+/* Perfil de usuario */
+
+.user-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(34, 34, 34, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 20px;
+    z-index: -1;
+    animation: fadeInUp 0.5s;
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+
+        .user-card-body {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: left;
+            flex-direction: column;
+
+            p {
+                font-family: monospace;
+
+
+                strong {
+                    font-weight: bold;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+    }
+
+
+}
+
+.user-avatar {
+    width: 150px;
+    border-radius: 15px;
+}
+
+;

@@ -1,0 +1,5 @@
+
+{"level":"error","message":"Error adding product: TypeError: Cannot read properties of undefined (reading 'body')"}
+{"level":"error","message":"Error adding product: TypeError: Cannot read properties of undefined (reading 'render')"}
+{"level":"warn","message":"no session to logout:"}
+{"level":"warn","message":"User Not Found with username jose@gmail.com"}

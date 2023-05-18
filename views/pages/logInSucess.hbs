@@ -1,0 +1,15 @@
+<div class='success-box'>
+    <h2>Acceso correcto</h2>
+    <p> <strong class='green'>{{user.username}}</strong></p>
+    <img
+        src='https://img.icons8.com/material-sharp/256/check-all.png'
+        class='arrow'
+        alt='success!'
+    />
+
+</div>
+
+<script>
+    const timer = () => { setTimeout(() => { document.location.href =
+    '/api/user/profile' }, 1600)}; timer()
+</script>
